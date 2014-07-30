@@ -1,0 +1,115 @@
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+@media screen and (max-width: 980px) {
+
+
+
+	body {
+	  min-width: 320px; /* because 320px is the mini size in chrome */
+	}
+		
+	.wrapper {
+	 width:100%;	
+	}
+		
+	.container_12 .grid_12 {
+	  width: 100%;
+	}
+	
+
+}
+
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (max-width: 720px) {
+
+	.main-storyLast .project {
+
+		margin: 0 0 0 10%;
+	
+	}
+
+				
+}
+
+
+/*************************************************************************************/
+@media screen and (max-width: 580px) {
+
+	.main-storyLast .project {
+		margin: 0 0 0 30%;
+	}
+		
+}
+
+
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+
+
+
+	.main-storyLast .project {
+
+		margin: 0 0 0 20%;
+	
+	}
+
+
+
+	.main-story1 {
+	margin-top:130px;
+	}
+
+
+	/* disable webkit text size adjust (for iPhone) */
+	html {
+		-webkit-text-size-adjust: none;
+	}
+	
+	/* main nav */
+	#main-nav a {
+		font-size: 90%;
+		padding: 10px 8px;
+	}
+	
+	
+	.container_12 .grid_6 {
+	  width: 100%;
+	  margin: 0 0 0 0;
+	}
+	
+	#logo-img{
+		width: 100%;
+		text-align: center;
+	}
+	
+	.nav {
+	  float: right;
+	  font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+	  font-size: 1.2em;
+	  padding: 30px 0px 0px 30px;
+	  text-align: center;}
+	  
+	.nav ul {
+		text-align: center;
+		display: block;
+		margin: 0;
+		padding: 15px 4px 17px 0;
+	
+	  }
+	  .nav ul li {
+		
+		display: block;
+		margin-right: -4px;
+		position: relative;
+		padding: 15px 15px;
+
+	  }
+  
+  
+}
+
